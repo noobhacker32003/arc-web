@@ -1,0 +1,127 @@
+/* common css */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;700&display=swap');
+
+.font-size-color{
+    color: #131313;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    font-weight:700 ;
+}
+.another{
+    color:#727272;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.btn{
+    width: 180px;
+    height: 64px;
+    flex-shrink: 0; 
+    border-radius: 8px;
+    background: #FF900E;  
+    border: none; 
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 500;
+}
+/*                   */
+
+/*                   */
+/*                   */
+/* first section */
+header{
+    background-color: rgba(255, 144, 14, 0.10) ;
+    height: 1322px;
+}
+.nav{
+    display: flex;
+    
+    justify-content: space-between;
+    padding: 0 14.25rem;
+    align-items: center;
+    
+}
+.nav-li{
+
+    display: flex;
+}
+.nav-li li{
+    padding-right: 30px;
+    list-style: none;
+
+
+    
+}
+.nav-li li a{
+    text-decoration: none;
+    color:#424242;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.nav .font-size-color{
+    font-size:45px ;
+}
+.banner-text p{
+    text-align: center;
+}
+.banner-text h3{
+    text-align: center;
+    font-size: 64px;
+    margin-top: 30px;
+}
+
+header .button{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+header .img{
+ 
+    margin: 30px 15rem;
+
+
+    
+}
+img{
+    width: 100%;
+}
+
+/* media 992*/
+@media screen and (max-width:576px) {
+    .nav{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }  
+    header .img{
+        margin: 10px;
+    }
+
+
+}
+@media screen and (min-width:576.1px) and (max-width:992px)  {
+    .nav{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    header .img{
+        margin: 30px;
+    }
+}
+@media screen and (min-width:992.1px) and (max-width:1200px){
+    .nav{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    header .img{
+        margin: 50px;
+    }
+}
