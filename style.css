@@ -92,6 +92,47 @@ img{
     width: 100%;
 }
 
+/* body part */
+.body-cont-text{
+    display: flex;
+    flex-direction: column;
+}
+.body-cont{
+    display: flex;
+    gap: 5px;
+    justify-content: space-around;
+    margin: 50px 250px;
+}
+.body-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+
+}
+.body-cont-text>h3{
+    font-size: 45px;
+    font-weight: 700;
+
+}
+.quick{
+    font-size: 45px;
+    font-weight: 500;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* media 992*/
 @media screen and (max-width:576px) {
     .nav{
